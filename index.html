@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="hero-section">
+        <div class="hero-content">
+            <h1 class="fade-in">Welcome to Editkaro Portfolio</h1>
+            <p class="fade-in">Showcasing the best in video editing and production</p>
+        </div>
+    </header>
+    
+    <section class="video-gallery">
+        <div class="category-filter">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="short">Short Videos</button>
+            <button class="filter-btn" data-category="long">Long Videos</button>
+            <button class="filter-btn" data-category="gaming">Gaming Videos</button>
+            <button class="filter-btn" data-category="football">Football Edits</button>
+            <button class="filter-btn" data-category="ads">Advertisements</button>
+            <button class="filter-btn" data-category="anime">Anime Videos</button>
+        </div>
+        
+        <div class="videos">
+            <div class="video-item" data-category="short">
+                <video src="videos/short1.mp4" controls></video>
+                <p>Short Video 1</p>
+            </div>
+            <div class="video-item" data-category="long">
+                <video src="videos/long1.mp4" controls></video>
+                <p>Long Video 1</p>
+            </div>
+            <div class="video-item" data-category="gaming">
+                <video src="videos/gaming1.mp4" controls></video>
+                <p>Gaming Video 1</p>
+            </div>
+            <div class="video-item" data-category="football">
+                <video src="videos/football1.mp4" controls></video>
+                <p>Football Edit 1</p>
+            </div>
+            <div class="video-item" data-category="ads">
+                <video src="videos/ad1.mp4" controls></video>
+                <p>Advertisement 1</p>
+            </div>
+            <div class="video-item" data-category="anime">
+                <video src="videos/anime1.mp4" controls></video>
+                <p>Anime Video 1</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Editkaro.in | Designed with ❤️</p>
+    </footer>
+</body>
+</html>
